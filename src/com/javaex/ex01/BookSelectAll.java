@@ -31,6 +31,7 @@ public class BookSelectAll {
 					query += "        pubs, ";
 					query += "        pub_date, ";
 					query += "        author_id ";
+					
 					query += " from book ";
 					
 					//바인딩 

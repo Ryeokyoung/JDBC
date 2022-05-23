@@ -20,7 +20,7 @@ public class BookDelete {
 					
 					// 2. Connection 얻어오기
 					String url = "jdbc:oracle:thin:@localhost:1521:xe";
-					conn = DriverManager.getConnection(url, "webdb", "webdb");
+					conn = DriverManager.getConnection(url, "webdb", "1234");
 
 					// 3. SQL문 준비 / 바인딩 / 실행
 					//SQL문 준비 

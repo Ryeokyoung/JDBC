@@ -48,7 +48,7 @@ public class BookSelectAll {
 						int bookId = rs.getInt(1);
 						String title = rs.getString(2);
 						String pubs = rs.getString(3);
-						String pub_date = rs.getString(4);                    /// 잘 모르겠음 ㅠ 
+						String pub_date = rs.getString(4);                    /// 잘 모르겠음.. 미완 .. ㅠ 
 						
 						String author = rs.getString(5);
 						

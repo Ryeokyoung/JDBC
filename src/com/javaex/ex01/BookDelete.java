@@ -30,7 +30,7 @@ public class BookDelete {
 					System.out.println(query);
 					
 					//바인딩
-					pstmt = conn.prepareStatement(query);
+					pstmt = conn.prepareStatement(query);                   // 다시 공부할 것 
 					pstmt.setInt(2, 5);
 					
 					//실행
